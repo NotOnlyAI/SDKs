@@ -1,0 +1,8 @@
+﻿  FaceDetect_winDLL.cpp
+E:\Projects\VS2019\FaceDetect_winDLL\face_typedef.h(1,1): warning C4819: 该文件包含不能在当前代码页(936)中表示的字符。请将该文件保存为 Unicode 格式以防止数据丢失
+E:\Projects\VS2019\FaceDetect_winDLL\face_cdzs_win.h(1,1): warning C4819: 该文件包含不能在当前代码页(936)中表示的字符。请将该文件保存为 Unicode 格式以防止数据丢失
+FaceDetect_winDLL.obj : error LNK2019: 无法解析的外部符号 "void __cdecl cv::fastFree(void *)" (?fastFree@cv@@YAXPEAX@Z)，函数 "public: __cdecl cv::Mat::~Mat(void)" (??1Mat@cv@@QEAA@XZ) 中引用了该符号
+FaceDetect_winDLL.obj : error LNK2019: 无法解析的外部符号 "void __cdecl cv::error(int,class std::basic_string<char,struct std::char_traits<char>,class std::allocator<char> > const &,char const *,char const *,int)" (?error@cv@@YAXHAEBV?$basic_string@DU?$char_traits@D@std@@V?$allocator@D@2@@std@@PEBD1H@Z)，函数 "public: class cv::Mat & __cdecl cv::Mat::operator=(class cv::Mat &&)" (??4Mat@cv@@QEAAAEAV01@$$QEAV01@@Z) 中引用了该符号
+FaceDetect_winDLL.obj : error LNK2019: 无法解析的外部符号 "public: void __cdecl cv::Mat::deallocate(void)" (?deallocate@Mat@cv@@QEAAXXZ)，函数 "public: void __cdecl cv::Mat::release(void)" (?release@Mat@cv@@QEAAXXZ) 中引用了该符号
+FaceDetect_winDLL.obj : error LNK2019: 无法解析的外部符号 "class cv::Mat __cdecl cv::imread(class std::basic_string<char,struct std::char_traits<char>,class std::allocator<char> > const &,int)" (?imread@cv@@YA?AVMat@1@AEBV?$basic_string@DU?$char_traits@D@std@@V?$allocator@D@2@@std@@H@Z)，函数 main 中引用了该符号
+E:\Projects\VS2019\FaceDetect_winDLL\x64\Debug\FaceDetect_winDLL.exe : fatal error LNK1120: 4 个无法解析的外部命令

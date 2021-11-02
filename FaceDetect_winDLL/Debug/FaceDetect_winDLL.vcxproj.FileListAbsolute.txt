@@ -1,0 +1,2 @@
+E:\Projects\VS2019\FaceDetect_winDLL\Debug\FaceDetect_winDLL.exe
+E:\Projects\VS2019\FaceDetect_winDLL\Debug\FaceDetect_winDLL.pdb
